@@ -67,8 +67,6 @@ body {
   color: var(--purple);
 }
 
-
-
 .agregar-tarea input::placeholder {
   font-size: 1.1rem;
   color: var(--purple);
