@@ -5,10 +5,10 @@
 }
 
 :root {
-  --white: #F2E7DC;
-  --purple: #0D0D0D;
+  --white: #f2e7dc;
+  --purple: #2f0ab3;
   --blue-light: #038c0e;
-  --blue-dark:#c22a88;
+  --blue-dark: #c22a88;
   --green: #c0861a;
 }
 
@@ -25,26 +25,23 @@ body {
   margin: 0 auto;
 }
 
-/* PERFIL*/
+/* PERFIL */
 
 .perfil h1 {
   color: var(--white);
-
 }
 
 .perfil span {
   color: var(--white);
   letter-spacing: 1px;
-
 }
 
 #fecha {
   color: var(--white);
   padding: 50px 0 5px 0;
-
 }
 
-/*AGREGAR TAREA*/
+/* AGREGAR TAREA */
 
 .agregar-tarea {
   background-color: var(--white);
@@ -63,18 +60,11 @@ body {
   border-radius: 8px;
   border: none;
   background-color: var(--white);
-
 }
 
 .agregar-tarea i {
   font-size: 50px;
   color: var(--purple);
-
-}
-
-.agregar-tarea i:hover {
-  transform: scale(1.1);
-  cursor: pointer;
 }
 
 .agregar-tarea input::placeholder {
@@ -82,13 +72,13 @@ body {
   color: var(--purple);
 }
 
-/*SECCION TAREA*/
+/* SECCION TAREA */
 
 .seccion-tarea h3 {
   color: var(--white);
   margin-bottom: 20px;
-
 }
+
 .seccion-tarea li {
   display: flex;
   background: linear-gradient(to bottom, var(--blue-dark), var(--green));
@@ -98,20 +88,24 @@ body {
   justify-content: space-between;
   margin: 5px 0;
   color: var(--white);
-
 }
+
 .seccion-tarea i {
   font-size: 25px;
+}
 
+.agregar-tarea i:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .seccion-tarea i:hover {
   color: var(--blue-light);
   cursor: pointer;
 }
+
 .seccion-tarea > ul p {
   font-size: 1.2rem;
-
 }
 
 .line-through {
